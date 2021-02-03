@@ -1,5 +1,5 @@
 //https://www.acmicpc.net/problem/2573
-//ºù»ê
+//ë¹™ì‚°
 //C++
 //2020.09.06
 //skyna
@@ -37,7 +37,7 @@ void melting() {
 
 	memcpy(ice, melting_ice, sizeof(melting_ice));
 	for (int i = 0; i < N; i++) {
-		memset(melting_ice[i], 0, sizeof(int) * M); //¸ðµç °ª 0À¸·Î ÃÊ±âÈ­
+		memset(melting_ice[i], 0, sizeof(int) * M); //Â¸Ã°ÂµÃ§ Â°Âª 0Ã€Â¸Â·ÃŽ ÃƒÃŠÂ±Ã¢ÃˆÂ­
 	}	
 }
 
@@ -99,7 +99,4 @@ int main() {
 	}
 
 	cout << time << endl;
-
-	//components >= 1 ---> island exists
-	//components == 0 ---> island disappear
 }
