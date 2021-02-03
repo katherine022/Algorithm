@@ -1,5 +1,5 @@
 //https://www.acmicpc.net/problem/2193
-//ÀÌÄ£¼ö
+//
 //C++
 //2021.02.02
 //skyna
